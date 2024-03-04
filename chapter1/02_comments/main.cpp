@@ -17,4 +17,16 @@
     am,sndasbd
     kjhasdhklashd
     */
+    
+    // nesting is not allowed in multiline comments "/* */", if you do this it will be going to through an error.
+
+    // Don't overdo comments cause our program may look like a novel if we overdo comments.
+
+        # include <iostream>
+
+        int main(){
+            std::cout << "abc world!" << std::endl;
+            return 0;
+        }
+
 
