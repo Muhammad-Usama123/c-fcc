@@ -22,3 +22,24 @@
         // char character3 {'r'};
         // char character4 {'o'};
         // char character5 {'w'};
+
+    // It is possible to assign a valid ASCII code to a char variable, and the corresponding character will be stored in. You can choose to interpret that either as a character or a regular integral value (as a number like only an integer maybe).
+
+        // Example: 
+
+            // char value = 65; // 65 will be stored in memory but c plus plus will interpret this as a character (A).
+
+            // std::cout << "value: " << value << std::endl; this will print A in terminal maybe.
+            // std::cout << "value(int): " << static_cast<int>(value) << std::endl; this will print 65 in terminal maybe cause this time we used "static_cast<int>(value)" when printing the value of a variable value.
+
+            // static_cast is a way to transform between datatypes.
+
+    // ASCII was among the first encodings to represent text in a computer.
+    // It falls short when it comes to representing languages other than English and a few western languages. Think Arabic, East Asian languages like Japanese, Chinese...
+    // There are better ways to represent text that is meant to be seen in different languages, one of the most common being Unicode.
+    // The details of Unicode are out of scope for this course, just know that it's a robust way to represent text in different languages for a computer.
+    // ASCII encoding is a technique through which we can map the first 128 numbers in a byte through characters and use that to represent characters.
+
+    // Unicode for complex languages and a better way to represent characters than ASCII...
+
+        
