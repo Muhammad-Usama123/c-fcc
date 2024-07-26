@@ -5,19 +5,19 @@
 //     std::cout << result << std::endl;
 // }
 
-// If you really want you can treat each bit as a self-contained piece of data but this is really not very useful but there are some corner use cases for this.
+// If you really want you can treat each bit as a self-contained piece of data but this is not really very useful, but there are some corner use cases for this.
 
-// We do the transformation between the representation of data that we wrote in program like an int value 22 stored in a variable which is understandable by humans and the representation of data which is stored in the form of 0 and 1 in our ram memory through a way that is called number systems.
+// We do the transformation between the representation of data that we wrote in program like an int value 22, stored in a variable which is understandable by humans and the representation of data which is stored in the form of 0 and 1 in our ram memory through a way, which is called number systems.
 
 // Number Systems:
 
-    // We have few types of number systems available to us that we can use example of some of them is below:
+    // We have few types of number systems available to us that we can use. Examples of some of them are below:
 
         // 1) Binary.
 
-        // 1) Octal.
+        // 2) Octal.
 
-        // 1) Hexadecimal.
+        // 3) Hexadecimal.
 
         // Analyzation of Decimal System: // Decimal system base is 10.
 
@@ -35,19 +35,19 @@
 
             // 111 -->> 1*2 power 2 + 1*2 power 1 + 1*2 power 0. 
 
-                // 1 digit binary value will always be in between 0 to 1 in decimal number system and it means if we store value between 0 and 1 in our variable it will make a 1 bit group in our ram memory.
+                // 1 digit binary value will always be in between 0 to 1 in decimal number system, and it means if we store values between 0 and 1 in our variable, it will make a 1 bit group in our ram memory.
 
-                // 2 digits binary value will always be in between 0 to 3 in decimal number system and it means if we store value between 0 and 3 in our variable it will make a 3 bit group in our ram memory.
+                // 2 digits binary value will always be in between 0 to 3 in decimal number system, and it means if we store values between 0 and 3 in our variable, it will make a 3 bit group in our ram memory.
 
-                // 3 digits binary value will always be in between 0 to 7 in decimal number system and it means if we store value between 0 and 7 in our variable it will make a 3 bit group in our ram memory.
+                // 3 digits binary value will always be in between 0 to 7 in decimal number system, and it means if we store values between 0 and 7 in our variable, it will make a 3 bit group in our ram memory.
 
-                // 4 digits binary value will always be in between 0 to 15 in decimal number system and it means if we store value between 0 and 15 in our variable it will make a 4 bit group in our ram memory.
+                // 4 digits binary value will always be in between 0 to 15 in decimal number system, and it means if we store values between 0 and 15 in our variable, it will make a 4 bit group in our ram memory.
 
-                // 5 digits binary value will always be in between 0 to 31 in decimal number system and it means if we store value between 0 and 31 in our variable it will make a 5 bit group in our ram memory.
+                // 5 digits binary value will always be in between 0 to 31 in decimal number system, and it means if we store values between 0 and 31 in our variable, it will make a 5 bit group in our ram memory.
 
-                // n digits binary value will always be in between 0 to 2 power n and then -1(or n-1 power maybe) in decimal number system and it means if we store value between 0 and 7 in our variable it will make a 3 bit group in our ram memory.
+                // n digits binary value will always be in between 0 to 2 power n and then -1 in decimal number system and it means if we store values between 0 and 7 in our variable it will make a 3 bit group in our ram memory.
 
-                // means we can group the bits in different sizes of data and we have kind of formula that we can use to make sense of the data in ram memory.
+                // means we can group the bits in different sizes of data and we have kind of formula, which we can use to make sense of the data in ram memory.
 
                 // there are ways from which we can manipulate these different sizes of bit groups in c++.
 
@@ -60,9 +60,9 @@
                         // 32 Binary digits of ram memory (means 32 bits) = 4 bytes and their data range is 0 to 34,359,738,367.
                         // 64 Binary digits of ram memory (means 64 bits) = 8 byte and its data range is 0 to 18,446,744,073,709,551,615.
 
-        // Analyzation of Hexadecimal Number System: 
+        // Analyzation of Hexadecimal Number System: // We use the hexadecimal system to represent 4 bit groups binary numbers. // 0x hexadecimal symbol or representation maybe...
 
-            // it is a technique we use to shorten the length of how we represent a binary number in memory. Below is the example of how it works:
+            // it is a technique we use to shorten the length of how we are going to represent a binary number in memory. Below is the example of how it works:
 
                 // 0000 (Binary)  = 0 (Decimal) = 0 (Hex)      
                 // 0001 (Binary)  = 1 (Decimal) = 1 (Hex)      

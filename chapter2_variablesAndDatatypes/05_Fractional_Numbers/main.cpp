@@ -37,7 +37,7 @@
 
     // Precision Gone Wrong:
 
-        // float number4 {192400023}; // this number precision count is 9 but we know that we can store only 7 digits in float, so means if are getting data from the user in this variable if we'll use float and user will give this number that is in these curly braces whose precision is more than 7, so we can face problems (compiler error maybe) storing this number in this float type variable in braced initialization...
+        // float number4 {192400023}; // this number precision count is 9 but we know that we can store only 7 digits in float, so means if we are getting data from the user in this variable if we'll use float and user will give this number that is in these curly braces whose precision is more than 7, so we can face problems (compiler error maybe) storing this number in this float type variable in braced initialization...
 
     // Scientific Notations:
 

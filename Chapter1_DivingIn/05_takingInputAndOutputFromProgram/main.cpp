@@ -7,22 +7,22 @@
 
 // Keywords for printing the output from program and taking input in program:
 
-    // Std::cout // printing data to the console(terminal). <<
-    // Std::cin // reading data from the terminal. >>
-    // Std::cerr // printing errors to the console. <<
-    // Std::clog // printing log messages to the console. <<
+    // Std::cout // for printing data to the console(terminal). <<
+    // Std::cin // for reading data from the terminal. >>
+    // Std::cerr // for printing errors to the console. <<
+    // Std::clog // for printing log messages to the console. <<
 
     // << is for printing something from our program into terminal or console.
     // >> is for taking data from our terminal as input from user using "std::cin" and getting that data from terminal into our program..
 
 
-    // Std::getline(std::cin, fullname) // through this "std::getline" user can use spaces maybe while writing the input in the terminal.
+    // Std::getline(std::cin, fullname) // through this "std::getline" user can use spaces maybe or maybe the user will get full line for this "fullname" or maybe both while writing the input in the terminal.
 
-# include <iostream>
-# include <string> // library to allow our program to store strings.
+// # include <iostream>
+// # include <string> // library to allow our program to store strings maybe.
 
 
-int main(){
+// int main(){
     /*
     // printing data
     std::cout << "abc c++20" << std::endl;
@@ -45,27 +45,27 @@ int main(){
     // std::cin >> name;
     // std::cin >> age1;
 
-    // std::cin >> name >> age1; // chaining // grabbing different data in one line. // works same as code in line 43 and 44.
+    // std::cin >> name >> age1; // chaining // grabbing different data in one line. // works same as code in line from 37 to line 46 above.
 
     // std::cout << name << " you are " << age1 << " years old!" << std::endl;
 */
-    // How to grab data with spaces: // because if we tried to use spaces when inputting the data in terminal, from line 37 to line 48 above, the program is going to fail miserably.
+    // How to grab data with spaces: // because if we tried to use spaces when inputting the data in terminal, from line 37 to line 50 above, the program is going to fail miserably.
 
         // Data Input With Spaces: // needs special way to do it in c++
 
-            std::string full_name;
-            int age;
+//             std::string full_name;
+//             int age;
 
-            std::cout << "Please type in your full name and age " << std::endl;
-            std::getline(std::cin, full_name);
+//             std::cout << "Please type in your full name and age " << std::endl;
+//             std::getline(std::cin, full_name);
 
-            std::cin >> age;
+//             std::cin >> age;
 
-            std::cout << full_name << " you are " << age << " years old!" << std::endl;
+//             std::cout << full_name << " you are " << age << " years old!" << std::endl;
 
             
 
 
-    return 0;
-}
+//     return 0;
+// }
 

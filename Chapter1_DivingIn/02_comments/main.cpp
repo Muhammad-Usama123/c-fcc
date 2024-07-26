@@ -22,11 +22,11 @@
 
     // Don't overdo comments cause our program may look like a novel if we overdo comments.
 
-        # include <iostream>
+        // # include <iostream>
 
-        int main(){
-            std::cout << "abc world!" << std::endl;
-            return 0;
-        }
+        // int main(){
+        //     std::cout << "abc world!" << std::endl;
+        //     return 0;
+        // }
 
 
